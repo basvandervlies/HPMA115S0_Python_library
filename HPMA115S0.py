@@ -29,7 +29,6 @@ class HPMA115S0:
         """
         Function which initializes the sensor.
         """
-        print("Initializing")
         time.sleep(0.1)
         self.startParticleMeasurement()
         time.sleep(0.1)
